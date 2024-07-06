@@ -6,8 +6,8 @@
  */
 void reset_to_98(int *n)
 {
-    if (n != NULL)  // Check if the pointer is valid
-        *n = 98;    // Update the value pointed to by n
+    if (n != NULL)
+        *n = 98;
 }
 
 int main()
