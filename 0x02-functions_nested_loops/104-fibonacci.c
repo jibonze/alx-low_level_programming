@@ -5,7 +5,8 @@ int main() {
     unsigned long int b = 2;
     unsigned long int next;
 
-    printf("%lu, %lu", a, b);  // Print the first two Fibonacci numbers
+    /* Print the first two Fibonacci numbers */
+    printf("%lu, %lu", a, b);
 
     for (int i = 2; i < 98; ++i) {
         next = a + b;
