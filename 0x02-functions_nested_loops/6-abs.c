@@ -1,20 +1,13 @@
-#include "main.h"
+/* _abs.c */
 #include <stdio.h>
+#include "main.h"
 /**
- * main - check the code
+ * _abs - Computes the absolute value of an integer
+ * @n: The integer to compute the absolute value for
  *
- * Return: Always 0.
+ * Return: The absolute value of n
  */
-int main(void)
+int _abs(int n)
 {
-  int r;
-  r = _abs(-1);
-  printf("%d\n", r);
-  r = _abs(0);
-  printf("%d\n", r);
-  r = _abs(1);
-  printf("%d\n", r);
-  r = _abs(-98);
-  printf("%d\n", r);
-  return (0);
+  return (n >= 0) ? n : -n;
 }
